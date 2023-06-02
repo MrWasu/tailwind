@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.svg-icon {
+    @apply h-6 fill-current text-gray-600 hover:text-blue-700;
+  }
+  
