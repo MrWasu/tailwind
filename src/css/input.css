@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .svg-icon {
-    @apply h-6 fill-current text-gray-600 hover:text-blue-700;
+    @apply h-6 fill-current text-gray-600 hover:text-red-700;
   }
   
