@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 .svg-icon {
-    @apply h-6 fill-current text-gray-600 hover:text-red-700;
-  }
-  
+  @apply h-6 fill-current text-gray-600 hover:text-red-700;
+}
+
+ input:focus~label,
+input:not(:placeholder-shown)~label,
+textarea:focus~label,
+textarea:not(:placeholder-shown)~label,
+select:focus~label,
+select:not([value=""]):valid~label {
+  @apply transform;
+  @apply scale-75;
+  @apply -translate-y-6;
+}
+
+input:focus~label,
+select:focus~label {
+  @apply text-black;
+  @apply left-0;
+} 
